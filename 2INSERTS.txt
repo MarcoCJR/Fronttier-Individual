@@ -1,0 +1,30 @@
+INSERIR
+
+    var instrucao = `
+    select nomeEmpresa from Empresa where codEmpresa = ${fkCodEmpresa};
+    `;
+
+    database.executar(instrucao);
+    
+    var instrucao = `
+    select nomeEmpresa from Empresa where codEmpresa = ${fkCodEmpresa};
+    `;
+
+    console.log("Executando a instrução SQL: \n" + instrucao);
+    database.executar(instrucao);
+
+
+SELECT
+
+    var instrucao = `
+    select nomeEmpresa from Empresa where codEmpresa = ${fkCodEmpresa};
+    `;
+
+    database.executar(instrucao);
+    
+    var instrucao = `
+    select nomeEmpresa from Empresa where codEmpresa = ${fkCodEmpresa};
+    `;
+
+    console.log("Executando a instrução SQL: \n" + instrucao);
+    return database.executar(instrucao);
